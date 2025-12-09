@@ -1,0 +1,53 @@
+#Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+venv/
+ENV/
+env/
+.venv/
+
+#FastAPI / Uvicorn
+*.log
+*.pid
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local data directory (PDF uploads)
+data/
+data/*
+
+# Persisted vector database
+vectordb/
+vectordb/*
+chroma/
+chroma/*
+
+# Ignore PDFs
+*.pdf
+
+# Docker
+*.tar
+
+# Virtual environment
+venv/
+env/
+bot/
+
+# Data files
+data/
+vectordb/
